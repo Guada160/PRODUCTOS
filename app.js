@@ -47,6 +47,7 @@ app.get("/productos/:id", (req, res) => {
 app.get("/", (req, res) => {
     res.send("API funcionando");
 });
+
 // Iniciar servidor
 app.listen(PORT, () => {
     console.log(`Servidor funcionando en http://localhost:${PORT}`);
